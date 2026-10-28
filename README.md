@@ -230,7 +230,7 @@ spec2db-capstone/
 
 ```powershell
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/spec2db-capstone.git
+git clone https://github.com/goldanamore/spec2db-capstone.git
 cd spec2db-capstone
 
 # 2. Create and activate a virtual environment
@@ -247,7 +247,7 @@ Copy-Item .env.example .env
 ### macOS / Linux
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/spec2db-capstone.git
+git clone https://github.com/goldanamore/spec2db-capstone.git
 cd spec2db-capstone
 python -m venv .venv
 source .venv/bin/activate

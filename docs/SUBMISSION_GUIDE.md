@@ -99,10 +99,8 @@ The current implementation demonstrates the core Document-to-Database pipeline u
 ## 8. GitHub Project Link
 
 ```
-https://github.com/YOUR_USERNAME/spec2db-capstone
+https://github.com/goldanamore/spec2db-capstone
 ```
-
-*(Replace `YOUR_USERNAME` with your actual GitHub username after publication.)*
 
 The repository is public and includes:
 - Complete source code

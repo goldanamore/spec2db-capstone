@@ -37,10 +37,10 @@ Last updated: Phase 10 — Post-Git-preparation review
 | `__pycache__` excluded from Git | ✅ PASS | `git status` confirms no pycache staged |
 | `.env.example` has placeholders only | ✅ PASS | `GEMINI_API_KEY=` (empty); `GEMINI_MODEL=` (empty) |
 | `requirements.txt` is complete | ✅ PASS | All 6 dependencies with minimum versions |
-| Git repository initialized | ✅ PASS | `main` branch, 34 files staged |
-| Initial commit created | ✅ PASS | See Git section below |
-| GitHub remote configured | ⚠️ NEEDS MANUAL ACTION | Awaiting approval |
-| Repository published | ⚠️ NEEDS MANUAL ACTION | Awaiting approval |
+| Git repository initialized | ✅ PASS | `main` branch, 35 files committed |
+| Initial commit created | ✅ PASS | `1f40cfa` |
+| GitHub remote configured | ✅ PASS | `origin` → `https://github.com/goldanamore/spec2db-capstone.git` |
+| Repository published | ✅ PASS | PUBLIC at `https://github.com/goldanamore/spec2db-capstone` |
 
 ---
 
@@ -82,19 +82,26 @@ Last updated: Phase 10 — Post-Git-preparation review
 ### NEEDS MANUAL ACTION
 
 1. **Capture screenshots** — follow `docs/screenshots/SCREENSHOT_CHECKLIST.md`
-2. **Approve GitHub publication** — review the security summary in the final report and confirm
-3. **After publication:** update `docs/SUBMISSION_GUIDE.md` Section 8 with the real GitHub URL
-4. **Submit to IBM SkillsBuild** — use answers from `docs/SUBMISSION_GUIDE.md`
+2. **Submit to IBM SkillsBuild** — use answers from `docs/SUBMISSION_GUIDE.md`
+
+### COMPLETED
+
+- ✅ Security audit passed
+- ✅ GitHub repository published: `https://github.com/goldanamore/spec2db-capstone`
+- ✅ README updated with real repository URL
+- ✅ Submission guide updated with real repository URL
 
 ---
 
 ## Final Status
 
-**READY FOR PUBLICATION APPROVAL.**
+**PUBLISHED AND READY FOR CAPSTONE SUBMISSION.**
 
-All automated checks pass. Security audit complete. No credentials in staged files. All documentation written. Awaiting:
-1. ✅ Your review of the security summary
-2. ✅ Your explicit approval to publish
-3. ⬜ Screenshot capture (manual)
-4. ⬜ GitHub push (after approval)
-5. ⬜ Submission form completion
+All automated checks pass. Security audit complete. Repository is PUBLIC at:
+**https://github.com/goldanamore/spec2db-capstone**
+
+Remaining actions:
+1. ✅ Security audit complete
+2. ✅ GitHub push complete
+3. ⬜ Screenshot capture (manual — see `docs/screenshots/SCREENSHOT_CHECKLIST.md`)
+4. ⬜ Submission form completion (use `docs/SUBMISSION_GUIDE.md`)
