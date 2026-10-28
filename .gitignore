@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets -- NEVER commit these
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+service_account*.json
+credentials*.json
+*_credentials.json
+google_credentials.json
+
+# SQLite databases and journal files
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+*.db
+*.sqlite
+*.sqlite3
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Application logs
+*.log
+streamlit_run.log
+streamlit_err.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
